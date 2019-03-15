@@ -14,14 +14,21 @@ app.use(express.static("client/build"));
 app.use(routes);
 
 // Set up promises with mongoose
-mongoose.Promise = global.Promise;
-// Connect to the Mongo DB
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/releasenotes",
-  {
-    useMongoClient: true
-  }
-);
+// mongoose.Promise = global.Promise;
+// // Connect to the Mongo DB
+// mongoose.connect(
+//   process.env.MONGODB_URI || "mongodb://localhost/releasenotes",
+//   {
+//     useMongoClient: true
+//   }
+// );
+
+mongoose.Promise = Promise;
+mongoose.connect("mongodb://user:user123@ds051524.mlab.com:51524/heroku_cm1d9xw9" , {
+	useMongoClient: true
+});
+
+var db = mongoose.connection;
 
 // Start the API server
 app.listen(PORT, function() {

@@ -24,7 +24,7 @@ app.use(routes);
 // );
 
 mongoose.Promise = Promise;
-mongoose.connect("mongodb://user:user123@ds051524.mlab.com:51524/heroku_cm1d9xw9" , {
+mongoose.connect("mongodb://heroku_cm1d9xw9:54c61t9ft6nj179avr1sji195e@ds051524.mlab.com:51524/heroku_cm1d9xw9" , {
 	useMongoClient: true
 });
 

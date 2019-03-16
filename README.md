@@ -22,15 +22,26 @@ The following technologies, frameworks and libraries are used:
 #####Note: 
 Currently, this app is non-functional due to issues in consolidating the user authentication and meeting minutes components of the app.
 
-Below the links to the all individual functional apps on Heroku:
+##Deployed Final App (Inlcuding Project3_User_Authentication + Meeting Minutes app) with a bug on Heroku:
+https://dry-spire-11344.herokuapp.com/
 
-##Deployed Userauthentication app on Heroku:
 
-##Deployed Meeting Minutes app excluding user authentication on Heroku:
 
-Below the links to the non-functional consolidated final app on Heroku:
+##########Note:
+Below the links to the prerequisite apps for this application:
 
-##Deployed Final App with a bug on Heroku:
+##Deployed # Project3_User_Authentication app on Heroku:
+https://obscure-dusk-50431.herokuapp.com/
+
+
+##Deployed Project3_CinaFlix_Meeting_Minutes_Excl_User_Authentication app on Heroku:
+https://stark-depths-53797.herokuapp.com/
+
+
+
+
+
+
 
 
 

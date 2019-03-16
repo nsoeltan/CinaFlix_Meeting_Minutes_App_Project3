@@ -4,12 +4,12 @@ mongoose.Promise = global.Promise;
 
 // This file empties the Notes collection and inserts the notes below
 
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/releasenotes",
-  {
-    useMongoClient: true
-  }
-);
+// mongoose.connect(
+//   process.env.MONGODB_URI || "mongodb://localhost/releasenotes",
+//   {
+//     useMongoClient: true
+//   }
+// );
 
 const noteSeed = [
   {
